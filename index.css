@@ -1,0 +1,43 @@
+*{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+html,body {
+  height: 100%;
+}
+
+.bg-place{
+  background-color: #998F33!important;
+}
+.bg-sm-place{
+  background-color: #C9C15E!important;
+}
+
+.border-place{
+  border-color: #998F33!important;
+}
+
+.input-text-info{
+  border-style:solid;
+  border-radius: 5px;
+  border-color: #C9C15E!important;
+}
+.input-text-info:focus{
+  outline:#C9C15E!important;
+}
+
+.text-title{
+  font-size: 24px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
