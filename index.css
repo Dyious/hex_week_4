@@ -1,43 +1,45 @@
-*{
-  font-family: 'Noto Sans TC', sans-serif;
-}
-html,body {
-  height: 100%;
-}
-
-.bg-place{
-  background-color: #998F33!important;
-}
-.bg-sm-place{
-  background-color: #C9C15E!important;
+/* 顯示右下角的 */
+.bottom-part{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 1.25rem;
 }
 
-.border-place{
-  border-color: #998F33!important;
+.bg-own{
+    background-color: #C9C15E!important;
 }
 
-.input-text-info{
-  border-style:solid;
-  border-radius: 5px;
-  border-color: #C9C15E!important;
-}
-.input-text-info:focus{
-  outline:#C9C15E!important;
+.carbox{
+    background-color: bisque;
 }
 
-.text-title{
-  font-size: 24px;
+.open{
+    height: 30rem;
+    width: 25rem;
 }
 
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
+.box-title{
+    min-width: 10rem;
+    padding: 5px;
+    text-align: center;
 }
+
+.box-body{
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+}
+
+.bottom-inline{
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+}
+
